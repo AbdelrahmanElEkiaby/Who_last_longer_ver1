@@ -5,7 +5,7 @@ using Photon.Pun;
 
 public class PlayerMovement : MonoBehaviourPun
 {
-     private Vector3 gravity = new Vector3(0, 0.1f, 0);//0.15f
+     private Vector3 gravity = new Vector3(0, 0.08f, 0);//0.15f
     public GameObject micVolume;
     private float Speed = 10f;
     private float moveSpeed;
